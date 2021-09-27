@@ -31,6 +31,34 @@
             "name": "Move to next clip",
             "program": "${workspaceFolder}\\Tutorials Automator Plus\\nextClip-equal-thisClip.jsx",
             "stopOnEntry": false
+        },
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "Move to time",
+            "program": "${workspaceFolder}\\Tests\\ClipMove.jsx",
+            "stopOnEntry": false
+        },
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "Clip Start",
+            "program": "${workspaceFolder}\\Tests\\ClipStart.jsx",
+            "stopOnEntry": false
+        },
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "Move Clip to previous clip",
+            "program": "${workspaceFolder}\\Tests\\moveClipToPreviousClip.jsx",
+            "stopOnEntry": false
+        },
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "Delete Part of Audio",
+            "program": "${workspaceFolder}\\Tests\\removeAudioInAndOut.jsx",
+            "stopOnEntry": false
         }
     ]
 }
