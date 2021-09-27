@@ -24,6 +24,13 @@
             "name": "Move with seconds",
             "program": "${workspaceFolder}\\Tutorials Automator Plus\\with-seconds.jsx",
             "stopOnEntry": false
+        },
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "Move to next clip",
+            "program": "${workspaceFolder}\\Tutorials Automator Plus\\nextClip-equal-thisClip.jsx",
+            "stopOnEntry": false
         }
     ]
 }
