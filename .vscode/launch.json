@@ -17,6 +17,13 @@
             "name": "Alert",
             "program": "${workspaceFolder}/alert.jsx",
             "stopOnEntry": false
+        },
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "Move with seconds",
+            "program": "${workspaceFolder}\\Tutorials Automator Plus\\with-seconds.jsx",
+            "stopOnEntry": false
         }
     ]
 }
