@@ -10,6 +10,12 @@
             "name": "Ask for script name",
             "program": "${workspaceFolder}/${command:AskForScriptName}",
             "stopOnEntry": false
+        },{
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "Alert",
+            "program": "${workspaceFolder}/alert.jsx",
+            "stopOnEntry": false
         }
     ]
 }
