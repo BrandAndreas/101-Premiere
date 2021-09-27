@@ -7,4 +7,6 @@ var audioTrack = audioTracks[0];
 
 var audioClip = audioTrack.clips[0];
 
+var audioInPoint = audioClip.inPoint;
+
 alert(audioClip.name);
